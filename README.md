@@ -39,9 +39,10 @@ The development engine used to build and refine the classification logic.
  
 ## 🛠️ Setup and Usage
 **1. Clone the Repository:**
-'''bash
+```bash
 git clone [https://github.com/your-username/resistor-sorter.git](https://github.com/your-username/resistor-sorter.git)
 cd resistor-sorter
+
 **2. Hardware Configuration:** Ensure all GPIO pins are mapped according to the definitions in motor_control.py.
 **3. Run the System:**
    python3 src/main.py
