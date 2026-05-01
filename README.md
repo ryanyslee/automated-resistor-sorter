@@ -44,6 +44,7 @@ git clone https://github.com/your-username/resistor-sorter.git
 cd resistor-sorter
 ```
 **2. Hardware Configuration:** Ensure all GPIO pins are mapped according to the definitions in ```motor_control.py```.
+
 **3. Run the System:**
 ```bash
 python3 src/main.py
