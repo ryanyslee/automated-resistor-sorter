@@ -10,7 +10,7 @@ An end-to-end autonomous mechatronic system designed to **singulate**, **identif
 ## 🛠️ System Architecture
 The respository is divided into two primary sections to separate real-time hardware execution from model development and optimization.
 
-### 1. Real-Time Implementation (/src)
+### 1. Real-Time Implementation (```/src```)
 The software stack managing synchronized hardware operations.
 - ```main.py```: The central state machine orchestrating the singulation, identification, and sorting lifecycle.
 - ```motor_control.py```: PWM-driven GPIO control for the step-ladder singulation mechanism and the rotational storage tower.
@@ -20,7 +20,7 @@ The software stack managing synchronized hardware operations.
 - ```event_list.py```: Synchronized event hub that decouples hardware interrupts from the main logic loop.
 - ```main_ui.py```: An asynchronous graphical user interface providing real-time system status and sorting results.
 
-### 2. Architecture & Optimization (/architecture)
+### 2. Architecture & Optimization (```/architecture```)
 The development engine used to build and refine the classification logic.
 - ```knn_trainer.py```: Interactive sampling tool used to manually extract HSV values from raw resistor images to build the training dataset.
 - ```knn_balance_debug.py```: Statistical utility that calculates class distribution to ensure even representation across all color categories.
