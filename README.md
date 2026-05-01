@@ -41,7 +41,7 @@ The development engine used to build and refine the classification logic.
 **1. Clone the Repository:**
 ```bash
 git clone [https://github.com/your-username/resistor-sorter.git](https://github.com/your-username/resistor-sorter.git)
-cd resistor-sorter
+cd resistor-sorter```
 
 **2. Hardware Configuration:** Ensure all GPIO pins are mapped according to the definitions in motor_control.py.
 **3. Run the System:**
