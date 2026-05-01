@@ -49,7 +49,7 @@ cd resistor-sorter
 python3 src/main.py
 ```
 
-## Project Context
-This project was developed as part of the Electromechanical Systems Design (24-671) capstone at Carnegie Mellon University. The system was nominated for presentation at the university-wide "Techspark" Engineering Exposition for its technical execution and multidisciplinary integration. It won "Best Overall Project" and "Best Prototype" awards.
+## 🎓 Project Context
+This project was developed as part of the **Electromechanical Systems Design (24-671)** capstone at **Carnegie Mellon University**. The system was recognized for its technical excellence and design maturity, receiving a nomination for the university-wide **TechSpark Engineering Exposition**. It was ultimately honored with the **"Best Prototype"** award and was named **"Best Overall Project"** at the Mechanical Engineering Exposition.
 
 **Team Members:** Hopewell Feldmann, Min Seo Kim, Ryan Lee, Katherene Qi, Ethan Steeg
