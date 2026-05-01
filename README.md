@@ -22,7 +22,7 @@ The software stack managing synchronized hardware operations.
 
 ### 2. Architecture & Optimization (/architecture)
 The development engine used to build and refine the classification logic.
-- knn_trainer.py: Interactive sampling tool used to manually extract HSV values from raw resistor images to build the training dataset.
+- ```bash knn_trainer.py```: Interactive sampling tool used to manually extract HSV values from raw resistor images to build the training dataset.
 - knn_balance_debug.py: Statistical utility that calculates class distribution to ensure even representation across all color categories.
 - knn_visualizer.py: Generates 3D scatter plots in the HSV state space to evaluate color cluster separation and overlap.
 - tune_weights.py: Automates hyperparameter optimization through a grid search to determine the most accurate HSV scaling weights.
@@ -40,7 +40,7 @@ The development engine used to build and refine the classification logic.
 ## 🔧 Setup and Usage
 **1. Clone the Repository:**
 ```bash
-git clone [https://github.com/your-username/resistor-sorter.git](https://github.com/your-username/resistor-sorter.git)
+git clone https://github.com/your-username/resistor-sorter.git
 cd resistor-sorter
 ```
 **2. Hardware Configuration:** Ensure all GPIO pins are mapped according to the definitions in motor_control.py.
