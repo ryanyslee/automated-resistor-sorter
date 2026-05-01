@@ -37,10 +37,11 @@ The development engine used to build and refine the classification logic.
   - **Storage:** Servo-actuated rotational tower with "multi-floor" delivery flaps.
   - **Illumination:** 4x LEDs for consistent color band identification.
  
-## Setup and Usage
+## 🛠️ Setup and Usage
 **1. Clone the Repository:**
-   git clone https://github.com/your-username/resistor-sorter.git
-   cd resistor-sorter
+'''bash
+git clone [https://github.com/your-username/resistor-sorter.git](https://github.com/your-username/resistor-sorter.git)
+cd resistor-sorter'''
 **2. Hardware Configuration:** Ensure all GPIO pins are mapped according to the definitions in motor_control.py.
 **3. Run the System:**
    python3 src/main.py
