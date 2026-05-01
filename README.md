@@ -12,21 +12,21 @@ The respository is divided into two primary sections to separate real-time hardw
 
 ### 1. Real-Time Implementation (/src)
 The software stack managing synchronized hardware operations.
-- main.py: The central state machine orchestrating the singulation, identification, and sorting lifecycle.
-- motor_control.py: PWM-driven GPIO control for the step-ladder singulation mechanism and the rotational storage tower.
-- resistor_scanner_final.py: The core classification engine utilizing a custom-weighted K-Nearest Neighbors (KNN) algorithm.
-- detect_resistor.py: Optical trigger using contour analysis to detect resistor entry and pause hardware for imaging.
-- full_hardware_scanner.py: Orchestrates high-resolution capture and coordinates data flow into KNN classifier.
-- event_list.py: Synchronized event hub that decouples hardware interrupts from the main logic loop.
-- main_ui.py: An asynchronous graphical user interface providing real-time system status and sorting results.
+- ```main.py```: The central state machine orchestrating the singulation, identification, and sorting lifecycle.
+- ```motor_control.py```: PWM-driven GPIO control for the step-ladder singulation mechanism and the rotational storage tower.
+- ```resistor_scanner_final.py```: The core classification engine utilizing a custom-weighted K-Nearest Neighbors (KNN) algorithm.
+- ```detect_resistor.py```: Optical trigger using contour analysis to detect resistor entry and pause hardware for imaging.
+- ```full_hardware_scanner.py```: Orchestrates high-resolution capture and coordinates data flow into KNN classifier.
+- ```event_list.py```: Synchronized event hub that decouples hardware interrupts from the main logic loop.
+- ```main_ui.py```: An asynchronous graphical user interface providing real-time system status and sorting results.
 
 ### 2. Architecture & Optimization (/architecture)
 The development engine used to build and refine the classification logic.
-- ```bash knn_trainer.py```: Interactive sampling tool used to manually extract HSV values from raw resistor images to build the training dataset.
-- knn_balance_debug.py: Statistical utility that calculates class distribution to ensure even representation across all color categories.
-- knn_visualizer.py: Generates 3D scatter plots in the HSV state space to evaluate color cluster separation and overlap.
-- tune_weights.py: Automates hyperparameter optimization through a grid search to determine the most accurate HSV scaling weights.
-- knn_pruner.py: Optimizes edge inference by removing redundant interior data points while preserving critical boundaries between color clusters.
+- ```knn_trainer.py```: Interactive sampling tool used to manually extract HSV values from raw resistor images to build the training dataset.
+- ```knn_balance_debug.py```: Statistical utility that calculates class distribution to ensure even representation across all color categories.
+- ```knn_visualizer.py```: Generates 3D scatter plots in the HSV state space to evaluate color cluster separation and overlap.
+- ```tune_weights.py```: Automates hyperparameter optimization through a grid search to determine the most accurate HSV scaling weights.
+- ```knn_pruner.py```: Optimizes edge inference by removing redundant interior data points while preserving critical boundaries between color clusters.
 
 ## ⚙️ Hardware Stack
 - **Primary Controller:** Raspberry Pi 4, managing high-level state machine logic and computer vision processing.
