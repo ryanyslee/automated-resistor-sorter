@@ -1,4 +1,4 @@
-# Autonomous Resistor Sorter
+# Automated Resistor Sorter
 An end-to-end autonomous mechatronic system designed to **singulate**, **identify**, and **sort** through-hole resistors from bulk input. This project integrates high-speed hardware control with a robust computer vision pipeline, achieving a **95% total system accuracy** and a **97.6% classification accuracy** with zero false positives.
 
 ## 🚀 Key Performance Metrics
