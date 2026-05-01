@@ -1,13 +1,13 @@
 # Autonomous Resistor Sorter
 An end-to-end autonomous mechatronic system designed to **singulate**, **identify**, and **sort** through-hole resistors from bulk input. This project integrates high-speed hardware control with a robust computer vision pipeline, achieving a **95% total system accuracy** and a **97.6% classification accuracy** with zero false positives.
 
-## Key Performance Metrics
+## 🚀 Key Performance Metrics
 - **Classification Accuracy:** 97.6% across 21 distinct resistance values.
 - **Zero False Positives:** Intelligent edge-case handling ensures no resistor is ever missorted.
 - **Inference Time:** ~1.80 seconds per component on edge hardware (Raspberry Pi).
 - **Throughput:** Capable of processing 10+ resistor per minute.
 
-## System Architecture
+## 🛠️ System Architecture
 The respository is divided into two primary sections to separate real-time hardware execution from model development and optimization.
 
 ### 1. Real-Time Implementation (/src)
@@ -28,7 +28,7 @@ The development engine used to build and refine the classification logic.
 - tune_weights.py: Automates hyperparameter optimization through a grid search to determine the most accurate HSV scaling weights.
 - knn_pruner.py: Optimizes edge inference by removing redundant interior data points while preserving critical boundaries between color clusters.
 
-## Hardware Stack
+## ⚙️ Hardware Stack
 - **Primary Controller:** Raspberry Pi 4, managing high-level state machine logic and computer vision processing.
 - **Peripheral Controller:** Arduino Uno, dedicated to low-level hardware control, including DC motor PWM for singulation and servo actuation for the storage tower.
 - **Vision Subsystem:** Picamera2 housed in a custom "Black-Box" enclosure to ensure a controlled lighting environment.
@@ -37,15 +37,17 @@ The development engine used to build and refine the classification logic.
   - **Storage:** Servo-actuated rotational tower with "multi-floor" delivery flaps.
   - **Illumination:** 4x LEDs for consistent color band identification.
  
-## 🛠️ Setup and Usage
+## 🔧 Setup and Usage
 **1. Clone the Repository:**
 ```bash
 git clone [https://github.com/your-username/resistor-sorter.git](https://github.com/your-username/resistor-sorter.git)
-cd resistor-sorter```
-
+cd resistor-sorter
+```
 **2. Hardware Configuration:** Ensure all GPIO pins are mapped according to the definitions in motor_control.py.
 **3. Run the System:**
-   python3 src/main.py
+```bash
+python3 src/main.py
+```
 
 ## Project Context
 This project was developed as part of the Electromechanical Systems Design (24-671) capstone at Carnegie Mellon University. The system was nominated for presentation at the university-wide "Techspark" Engineering Exposition for its technical execution and multidisciplinary integration. It won "Best Overall Project" and "Best Prototype" awards.
