@@ -1,5 +1,5 @@
 # Automated Resistor Sorter
-An end-to-end autonomous mechatronic system designed to **singulate**, **identify**, and **sort** through-hole resistors from bulk input. This project integrates high-speed hardware control with a robust computer vision pipeline, achieving a **95% total system accuracy** and a **97.6% classification accuracy** with zero false positives and **1.80 second** inference time.
+> **An end-to-end autonomous mechatronic system designed to **singulate**, **identify**, and **sort** through-hole resistors from bulk input. This project integrates high-speed hardware control with a robust computer vision pipeline, achieving a **95% total system accuracy** and a **97.6% classification accuracy** with zero false positives and **1.80 second** inference time.**
 
 ## 🎬 Demonstration Videos
 ### ▶️ Click the image below to watch the Highlight Demo Video:
@@ -7,16 +7,22 @@ An end-to-end autonomous mechatronic system designed to **singulate**, **identif
 
 - Unedited Demo Video: https://www.youtube.com/watch?v=aLfBF6Y4sHY
 
+---
+
 ## 🏆 Engineering Exposition Poster
 <p align="center">
   <img src="./documents/automated_resistor_sorter_poster.jpg" alt="Automated Resistor Sorter Exposition Poster" width="800"/>
 </p>
+
+---
 
 ## 🚀 Key Performance Metrics
 - **Classification Accuracy:** 97.6% across 21 distinct resistance values.
 - **Zero False Positives:** Intelligent edge-case handling ensures no resistor is ever missorted.
 - **Inference Time:** ~1.80 seconds per component on edge hardware (Raspberry Pi).
 - **Throughput:** Capable of processing 10+ resistor per minute.
+
+---
 
 ## 🛠️ System Architecture
 The respository is divided into two primary sections to separate real-time hardware execution from model development and optimization.
@@ -39,6 +45,8 @@ The development engine used to build and refine the classification logic.
 - ```tune_weights.py```: Automates hyperparameter optimization through a grid search to determine the most accurate HSV scaling weights.
 - ```knn_pruner.py```: Optimizes edge inference by removing redundant interior data points while preserving critical boundaries between color clusters.
 
+---
+
 ## ⚙️ Hardware Stack
 - **Primary Controller:** Raspberry Pi 4, managing high-level state machine logic and computer vision processing.
 - **Peripheral Controller:** Arduino Uno, dedicated to low-level hardware control, including DC motor PWM for singulation and servo actuation for the storage tower.
@@ -47,6 +55,8 @@ The development engine used to build and refine the classification logic.
   - **Singulation:** DC Motor-driven step-ladder mechanism.
   - **Storage:** Servo-actuated rotational tower with "multi-floor" delivery flaps.
   - **Illumination:** 4x LEDs for consistent color band identification.
+
+---
  
 ## 🔧 Setup and Usage
 **1. Clone the Repository:**
@@ -60,6 +70,8 @@ cd resistor-sorter
 ```bash
 python3 src/main.py
 ```
+
+---
 
 ## 🎓 Project Context
 This project was developed as part of the **Electromechanical Systems Design (24-671)** capstone at **Carnegie Mellon University**. The system was recognized for its technical excellence and design maturity, receiving a nomination for the university-wide **TechSpark Engineering Exposition**. It was ultimately honored with the **"Best Prototype"** award and was named **"Best Overall Project"** at the Mechanical Engineering Exposition.
