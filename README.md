@@ -3,7 +3,7 @@ An end-to-end autonomous mechatronic system designed to **singulate**, **identif
 
 ## 🎬 Demonstration Videos
 - Highlight Video: https://www.youtube.com/watch?v=je93BTLu3EY
-- Unedited Demo: https://www.youtube.com/watch?v=aLfBF6Y4sHY
+- Unedited Demo Video: https://www.youtube.com/watch?v=aLfBF6Y4sHY
 
 ## 🚀 Key Performance Metrics
 - **Classification Accuracy:** 97.6% across 21 distinct resistance values.
