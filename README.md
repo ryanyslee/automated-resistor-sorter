@@ -6,7 +6,9 @@ An end-to-end autonomous mechatronic system designed to **singulate**, **identif
 - Unedited Demo Video: https://www.youtube.com/watch?v=aLfBF6Y4sHY
 
 ## 🏆 University Engineering Exposition Showcase
-
+<p align="center">
+  <img src="./documents/automated_resistor_sorter_poster.JPEG" alt="Automated Resistor Sorter Exposition Poster" width="800"/>
+</p>
 
 ## 🚀 Key Performance Metrics
 - **Classification Accuracy:** 97.6% across 21 distinct resistance values.
