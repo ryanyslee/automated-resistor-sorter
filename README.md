@@ -7,7 +7,7 @@ An end-to-end autonomous mechatronic system designed to **singulate**, **identif
 
 ## 🏆 University Engineering Exposition Showcase
 <p align="center">
-  <img src="./documents/automated_resistor_sorter_poster.JPEG" alt="Automated Resistor Sorter Exposition Poster" width="800"/>
+  <img src="./documents/automated_resistor_sorter_poster.jpg" alt="Automated Resistor Sorter Exposition Poster" width="800"/>
 </p>
 
 ## 🚀 Key Performance Metrics
