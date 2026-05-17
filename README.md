@@ -5,6 +5,9 @@ An end-to-end autonomous mechatronic system designed to **singulate**, **identif
 - Highlight Video: https://www.youtube.com/watch?v=je93BTLu3EY
 - Unedited Demo Video: https://www.youtube.com/watch?v=aLfBF6Y4sHY
 
+## 🏆 University Engineering Exposition Showcase
+
+
 ## 🚀 Key Performance Metrics
 - **Classification Accuracy:** 97.6% across 21 distinct resistance values.
 - **Zero False Positives:** Intelligent edge-case handling ensures no resistor is ever missorted.
