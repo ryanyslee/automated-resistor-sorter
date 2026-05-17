@@ -1,6 +1,10 @@
 # Automated Resistor Sorter
 An end-to-end autonomous mechatronic system designed to **singulate**, **identify**, and **sort** through-hole resistors from bulk input. This project integrates high-speed hardware control with a robust computer vision pipeline, achieving a **95% total system accuracy** and a **97.6% classification accuracy** with zero false positives.
 
+## 🎬 Demonstration Videos
+- Highlight Video: https://www.youtube.com/watch?v=je93BTLu3EY
+- Unedited Demo: https://www.youtube.com/watch?v=aLfBF6Y4sHY
+
 ## 🚀 Key Performance Metrics
 - **Classification Accuracy:** 97.6% across 21 distinct resistance values.
 - **Zero False Positives:** Intelligent edge-case handling ensures no resistor is ever missorted.
